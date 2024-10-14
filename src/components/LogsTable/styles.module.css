@@ -16,6 +16,7 @@
   border-top: 3px solid var(--purple-light);
   border-bottom: 0;
   border-radius: 5px;
+  padding: 5px;
   /* margin: 5px; */
 }
 
@@ -32,7 +33,8 @@
 }
 
 .colIcon {
-  width: 2%;
+  width: 36px;
+  min-width: 36px;
 }
 .colTime {
   width: 20%;
@@ -40,15 +42,17 @@
 }
 .colLevel {
   width: 7%;
+  min-width: 5rem;
 }
 .colService {
   width: 15%;
+  min-width: 7rem;
 }
 .colLog {}
 
 .th {
   font-weight: 500;
-  padding: var(--dist-large);
+  padding: var(--dist-large) 0;
   font-size: var(--font-medium);
   text-align: left;
   border-bottom: 1px solid var(--grey-light);
@@ -56,7 +60,7 @@
 }
 
 .td {
-  padding: var(--dist-large);
+  padding: var(--dist-large) 0;
   font-size: var(--font-medium);
   color: #161616;
   border-radius: 5px;
@@ -64,7 +68,13 @@
 
 .tdIcon {
   text-align: center;
-  padding: 10px;
+}
+
+.tdService {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: var(--font-medium);
 }
 
 .tdTime {

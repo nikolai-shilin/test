@@ -96,7 +96,7 @@ const LogsTable = ({ logs }: LogsTableProps): ReactNode => {
         </colgroup>
         <thead>
           <tr>
-            <th></th>
+            <th className={ styles.th }></th>
             { columns.includes("time") &&
               <th className={ styles.th }>Time</th>
             }
@@ -133,7 +133,7 @@ const LogsTable = ({ logs }: LogsTableProps): ReactNode => {
                     </td>
                   }
                   { columns.includes("service") &&
-                    <td className={ styles.td }>
+                    <td className={ styles.tdService }>
                       { log.service }
                     </td>
                   }
@@ -159,10 +159,6 @@ const LogsTable = ({ logs }: LogsTableProps): ReactNode => {
         perPageAll={ perPageAll }
         currentPage={ currentPage }
         setCurrentPage={ setCurrentPage }
-
-        // currentPage={ currentPage }
-        // setCurrentPage={ setCurrentPage }
-        // totalItems={ filteredLogs.length }
       />
     </>
   );
