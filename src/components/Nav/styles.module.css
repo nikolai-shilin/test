@@ -1,0 +1,23 @@
+.contaniner {
+  font-size: 16px;
+  line-height: 22px;
+  list-style: none;
+  /* margin-left: 26px; */
+}
+
+.navItemContainer {
+  margin: 1em 0;
+}
+
+.navItem {
+  color: var(--black);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.active {
+  font-weight: 600;
+}

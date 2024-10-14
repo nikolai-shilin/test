@@ -1,0 +1,6 @@
+.container {
+  font-size: var(--font-small);
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  margin: auto 0;
+}

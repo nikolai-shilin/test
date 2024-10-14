@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: var(--dist-xlarge);
+  padding: var(--dist-large);
+  background-color: var(--grey-very-light);
+  border-top: 1px solid var(--grey);
+  text-wrap: nowrap;
+  margin-bottom: var(--dist-xlarge);
+  font-size: var(--font-medium);
+}
+
+.stretchedCell {
+  flex-grow: 1;
+}

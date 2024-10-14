@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+}
+
+.search {
+  padding: var(--dist-large) 0;
+  display: flex;
+  gap: var(--dist-large);
+}

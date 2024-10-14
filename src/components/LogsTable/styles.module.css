@@ -1,0 +1,88 @@
+.container {
+}
+
+.filters {
+  position: relative;
+  bottom: -40px;
+  display: flex;
+  justify-content: end;
+  margin-bottom: -40px;
+  margin-bottom: var(--dist-medium);
+}
+
+
+.selected {
+  border: 1px solid var(--purple-light);
+  border-top: 3px solid var(--purple-light);
+  border-bottom: 0;
+  border-radius: 5px;
+  /* margin: 5px; */
+}
+
+.selectedBottom {
+  border: 1px solid var(--purple-light);
+  border-top: 0;
+}
+
+.table{
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid transparent;
+}
+
+.colIcon {
+  width: 2%;
+}
+.colTime {
+  width: 20%;
+  text-align: left;
+}
+.colLevel {
+  width: 7%;
+}
+.colService {
+  width: 15%;
+}
+.colLog {}
+
+.th {
+  font-weight: 500;
+  padding: var(--dist-large);
+  font-size: var(--font-medium);
+  text-align: left;
+  border-bottom: 1px solid var(--grey-light);
+  white-space: nowrap;
+}
+
+.td {
+  padding: var(--dist-large);
+  font-size: var(--font-medium);
+  color: #161616;
+  border-radius: 5px;
+}
+
+.tdIcon {
+  text-align: center;
+  padding: 10px;
+}
+
+.tdTime {
+  padding: var(--dist-large);
+  font-size: var(--font-medium);
+  color: #525252;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-radius: 5px;
+}
+
+
+.tdLogs {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: var(--dist-large);
+  font-size: var(--font-medium);
+  border-radius: 5px;
+}

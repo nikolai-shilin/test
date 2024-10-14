@@ -1,0 +1,28 @@
+.logsLevelLabel {
+  padding: 5px;
+  font-size: var(--font-small);
+  border-radius: 16px;
+  padding: 2px 8px;
+  display: inline-block;
+}
+
+.fatal {
+  color:#A2191F;
+  background-color: #FFD7D9;
+}
+.info {
+  color: #0043CE;
+  background-color: #D0E2FF;
+}
+.warn {
+  color: #9F1853;
+  background-color: #FDDC69;
+}
+.error {
+  color: #161616;
+  background-color: #FF832B;
+}
+.debug {
+  color: #6929C4;
+  background-color: #E8DAFF;
+}

@@ -1,0 +1,21 @@
+.container {
+  padding: 2rem;
+  font-size: var(--font-medium);
+  width: 100%;
+}
+
+.propTable {
+  border-collapse: collapse;
+  border: 0;
+}
+
+.propName {
+  color: var(--purple-light);
+  padding: 0;
+  padding-right: var(--font-medium);
+}
+
+.propValue {
+  padding: 0;
+  color: var(--black);
+}

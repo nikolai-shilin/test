@@ -1,9 +1,12 @@
-import './App.css'
+import './styles.module.css'
+import Logs from './pages/Logs'
+
+
 
 function App() {
 
   return (
-    <></>
+    <Logs />
   )
 }
 

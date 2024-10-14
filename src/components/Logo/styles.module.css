@@ -1,0 +1,17 @@
+.logo {
+  width: 38px;
+  height: 38px;
+  border-radius: 19px;
+  padding-bottom: 3px;
+  /* margin: 7px; */
+
+  background-color: var(--purple);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: var(--font-medium);
+}
