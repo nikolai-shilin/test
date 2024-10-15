@@ -20,3 +20,4 @@
 ## Several stylistic issues
 - distances may vary due to different distances between the elements - hard to decide which to choose
 - fetch data is not implemented due to the lack of the API
+- debounce function is not implemented due to the lack of the API
