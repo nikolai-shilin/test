@@ -115,7 +115,6 @@ const LogsTable = ({ logs }: LogsTableProps): ReactNode => {
             return (
               <Fragment key={ log.id + "-" + index }>
                 <tr
-                  // key={ log.id + "-" + index }
                   className={ selected ? styles.selected : "" }
                   onClick={ () => handleLogClick(log.id) }
                 >

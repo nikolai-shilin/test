@@ -23,7 +23,7 @@ const Pagination = ({ totalItems, perPage, perPageAll, setPerPage, currentPage, 
   }
 
   const nextPage = () => {
-    if (currentPage + 1 > Math.ceil(totalItems / perPage)) {
+    if (currentPage + 1 >= Math.ceil(totalItems / perPage)) {
       return
     }
     setCurrentPage(currentPage + 1);
@@ -46,6 +46,7 @@ const Pagination = ({ totalItems, perPage, perPageAll, setPerPage, currentPage, 
         items={ perPageAll }
         selectedItem={ perPage }
         setSelectedItem={ switchPerPage }
+        plusOneCorrection={ 0 }
       />
       <div>
       </div>
@@ -57,6 +58,7 @@ const Pagination = ({ totalItems, perPage, perPageAll, setPerPage, currentPage, 
           items={ Array.from({ length: totalPages }, (_, i) => i) }
           selectedItem={ currentPage }
           setSelectedItem={ setCurrentPage }
+          plusOneCorrection={ 1 }
         />
       </div>
       <div>{ `of ${ totalPages } pages` }

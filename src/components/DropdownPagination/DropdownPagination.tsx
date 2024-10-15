@@ -7,15 +7,16 @@ type DropdownPaginationProps = {
   items: number[];
   selectedItem: number;
   setSelectedItem: (item: number) => void;
+  plusOneCorrection: 0 | 1;
 }
 
-const DropdownPagination = ({ items, selectedItem, setSelectedItem }: DropdownPaginationProps): ReactNode => {
+const DropdownPagination = ({ items, selectedItem, setSelectedItem, plusOneCorrection }: DropdownPaginationProps): ReactNode => {
 
   return (
     <>
       <div className={ styles.dropdown } >
         <span className={styles.selectedName}>
-          { selectedItem }
+          { selectedItem + plusOneCorrection }
           <Icon name={ "down" } size="small" />
         </span>
         <ul className={ styles.dropdownContent }>
@@ -25,7 +26,7 @@ const DropdownPagination = ({ items, selectedItem, setSelectedItem }: DropdownPa
               className={ styles.dropdownContentItem }
               onClick={ () => setSelectedItem(item) }
             >
-              { item }
+              { item  + plusOneCorrection }
             </li>
           )) }
         </ul>
