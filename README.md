@@ -20,5 +20,4 @@
 ## Several stylistic issues
 - not rounded corners for the selected log
 - distances may vary due to different distances between the elements - hard to decide which to choose
-- some paggination logic may be off
 - fetch data is not implemented due to the lack of the API
