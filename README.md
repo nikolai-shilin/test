@@ -8,7 +8,7 @@
 - styling is done using css modules, since that  would take more time to style css frameworks for me
 - tests are excluded for simplicity
 - english is used for the codebase and comments
-- the project is built using the LTS node.js (16.13.0)
+- the project is built using the LTS node.js (20.10.0)
 - icons are not assembled into sprites since there is only one icon(no framework is used for icons either)
 
 ## How to run the project
@@ -18,6 +18,5 @@
 
 
 ## Several stylistic issues
-- not rounded corners for the selected log
 - distances may vary due to different distances between the elements - hard to decide which to choose
 - fetch data is not implemented due to the lack of the API
